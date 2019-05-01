@@ -9,6 +9,7 @@ def prime?(num)
       if new.include?(0)
         puts "not prime"
         false
+      end
     end
   
   end
