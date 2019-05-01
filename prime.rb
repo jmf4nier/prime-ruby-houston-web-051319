@@ -4,9 +4,11 @@ def prime?(num)
   elsif num == 2 || num == 3
     p true
   elsif
-    for x in (1..10)
-      x % num -1 == 0
-      p false
+    for x in 1..(num-1)
+      new = x % num
+      if new.include?(0)
+        puts "not prime"
+        false
     end
   
   end
