@@ -5,8 +5,8 @@ def prime?(num)
     p true
   elsif
     for x in 2..(num-1)
-      new = [x % num]
-      
+      new = [num % x]
+      puts new
     
       
     end
