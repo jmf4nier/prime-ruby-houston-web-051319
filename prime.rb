@@ -5,10 +5,9 @@ def prime?(num)
     p true
   elsif
     for x in 1..(num-1)
-      new = x % num
-      if new.include?(0)
-        puts "not prime"
-        false
+      new = [x % num]
+      
+      new
       end
     end
   
