@@ -6,7 +6,9 @@ def prime?(num)
   elsif
     for x in 2..(num-1)
       new = [num % x]
-      puts new
+      if new.include?(0)
+        puts "not prime"
+      end
     
       
     end
