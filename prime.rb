@@ -8,7 +8,8 @@ def prime?(num)
       new = [num % x]
       if new.include?(0)
         puts "not prime"
-      end
+      else 
+        puts "prime"
     
       
     end
