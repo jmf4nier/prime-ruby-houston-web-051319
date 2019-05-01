@@ -8,7 +8,7 @@ def prime?(num)
       new = [x % num]
       
       new
-      end
+      
     end
   
   end
