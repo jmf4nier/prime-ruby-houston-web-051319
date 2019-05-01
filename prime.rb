@@ -5,7 +5,7 @@ def prime?(num)
     p true
   elsif
     for x in (1..10)
-      (num - 1) % x == 0
+      x % num -1 == 0
       p false
     end
   
