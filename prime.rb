@@ -7,7 +7,7 @@ def prime?(num)
     for x in 1..(num-1)
       new = [x % num]
       
-      new
+      return new
       
     end
   
