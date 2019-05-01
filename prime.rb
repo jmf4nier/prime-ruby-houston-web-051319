@@ -6,8 +6,10 @@ def prime?(num)
   elsif
     for x in 2..(num-1)
       new = [x % num]
-      
-      return new
+      if new != 0 
+        puts "prime"
+      end
+    
       
     end
   
